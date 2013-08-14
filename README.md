@@ -15,6 +15,30 @@ As a consequence, one can generate a quine relay from the 5 languages, or a subs
 
 You could also think of each language as a state, and the flags as state transitions. This suddenly looks suspiciously like some sort of state-machine, composed of quines; an interesting phenomenon.
 
+### Running it
+
+You can boostrap the pentaquine with
+
+  $ python generator.py > pentaquine.py
+
+Pass command-line arguments to generate successive sources:
+  
+  $ python pentaquine.py pl > pentaquine.pl
+
+Have a look at test.sh for a more comprehensive, albeit crude, testing script.
+
+### Misc
+
+This was tested on:
+
+Ubuntu 12.04
+
+Python 2.7.3
+Perl v5.14.2
+newLISP v.10.4.5
+gcc version 4.6.3
+F# 3.0 (Open Source Edition)
+
 ### License
 
 Copyright (c) 2013 Rijnard van Tonder, @_raikey
