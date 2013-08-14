@@ -3,13 +3,13 @@ Pentaquine
 
 This is a 5-part multiquine. A multiquine should not be mistaken for a quine relay or ouroboros program - a great example of which can be found [here](https://github.com/mame/quine-relay).
 
+![logo](https://raw.github.com/rvantonder/pentaquine/master/pentaquine_diag.png)
+
 The multiquine is described in great detail by David Madore (Creator of Unlambda) [here](http://www.madore.org/~david/computers/quine.html), but can be summed up as follows:
 
 "A multiquine is a set of *r* different programs (in *r* different languages — without this condition we could take them all equal to a single quine), **each** of which is able to print **any** of the *r* programs (including itself) according to the command line argument it is passed. (Note that cheating is not allowed: the command line arguments must not be too long — passing the full text of a program is considered cheating)."
 
 Visually, we have a graph in which we can transition to each language from any other language by specifying the appropriate command-line flag:
-
-![logo](https://raw.github.com/rvantonder/pentaquine/master/pentaquine_diag.png)
 
 As a consequence, one can generate a quine relay from the 5 languages, or a subset thereof, in any sequence that you fancy.
 
