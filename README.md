@@ -11,10 +11,13 @@ Visually, we have a graph in which we can transition to each language from any o
 
 ![logo](https://raw.github.com/rvantonder/pentaquine/master/pentaquine_diag.png)
 
+As a consequence, one can generate a quine relay from the 5 languages, or a subset thereof, in any sequence that you fancy.
+
+You could also think of each language as a state, and the flags as state transitions. This suddenly looks suspiciously like some sort of state-machine, composed of quines; an interesting phenomenon.
 
 ### License
 
-Copyright (c) 2013 Rijnard van Tonder (@_raikey)
+Copyright (c) 2013 Rijnard van Tonder, @_raikey
 
 MIT License
 
