@@ -19,7 +19,7 @@ You could also think of each language as a state, and the flags as state transit
 
 You can boostrap the pentaquine with
 
-    $ python generator.py > pentaquine.py
+    $ python bootstrapper.py > pentaquine.py
 
 Pass command-line arguments to generate successive sources:
 
