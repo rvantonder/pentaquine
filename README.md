@@ -22,28 +22,28 @@ You can boostrap the pentaquine with
     $ python generator.py > pentaquine.py
 
 Pass command-line arguments to generate successive sources:
-  
-  $ python pentaquine.py pl > pentaquine.pl
 
-Have a look at test.sh for a more comprehensive, albeit crude, testing script.
+    $ python pentaquine.py pl > pentaquine.pl
+
+Have a look at `test.sh` for a more comprehensive, albeit crude, testing script.
 
 ### Misc
 
 This was tested on:
 
-Ubuntu 12.04
+* Ubuntu 12.04
 
+with
 
+* Python 2.7.3
 
-Python 2.7.3
+* Perl v5.14.2
 
-Perl v5.14.2
+* newLISP v.10.4.5
 
-newLISP v.10.4.5
+* gcc version 4.6.3
 
-gcc version 4.6.3
-
-F# 3.0 (Open Source Edition)
+* F# 3.0 (Open Source Edition)
 
 ### License
 
