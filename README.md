@@ -5,7 +5,7 @@ This is a 5-part multiquine. A multiquine should not be mistaken for a quine rel
 
 ![logo](https://raw.github.com/rvantonder/pentaquine/master/pentaquine_diag.png)
 
-The multiquine is described in great detail by David Madore (Creator of Unlambda) [here](http://www.madore.org/~david/computers/quine.html), but can be summed up as follows:
+The multiquine is described in great detail by David Madore (creator of Unlambda) [here](http://www.madore.org/~david/computers/quine.html), but can be summed up as follows:
 
 "A multiquine is a set of *r* different programs (in *r* different languages — without this condition we could take them all equal to a single quine), **each** of which is able to print **any** of the *r* programs (including itself) according to the command line argument it is passed. (Note that cheating is not allowed: the command line arguments must not be too long — passing the full text of a program is considered cheating)."
 
