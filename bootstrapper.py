@@ -14,7 +14,7 @@ Pentaquine bootstrapper / generator. Each language is encoded into a data struct
 
 python_src = """import sys
 def t1(i): return ''.join(map(lambda x: hex(x)[2:] if x > 15 else hex(x)[2:].zfill(2), i))+"\\\";"
-def t2(i): return "[|%s; |]" % ('; '.join(map(str, i))) #return (lambda x: "%s%s%s%s%s" % (x[0], "|", x[1:len(x)-1], "; |", x[-1]))(str(i).replace(',',';'))
+def t2(i): return "[|%s; |]" % ('; '.join(map(str, i)))
 def t3(i): return ' '.join(map(str, i))
 def t4(i,j): print "char %s[]={%s,};" % (i,','.join(map(str, j)))
 def py(): print "p="+str(p);print "c="+str(c);print "f="+str(f);print "l="+str(l);print "s="+str(s);print ''.join([chr(x) for x in p])
